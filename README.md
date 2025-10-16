@@ -1,13 +1,6 @@
-flowchart TD
-    A[📘 Data Collection] --> B[🧹 Data Cleaning & Preprocessing]
-    B --> C[📊 Exploratory Data Analysis (EDA)]
-    C --> D[⚙️ Feature Engineering]
-    D --> E[📈 Model Training (Linear Regression)]
-    E --> F[💬 Interactive Prediction Model]
-    F --> G[🚀 Future Extensions]
+# Word Concreteness Prediction using BaysBERT & Literary Words
 
-<details> <summary><b>
-📘 Step 1: Data Collection</b></summary>
+This project predicts the concreteness of words by integrating literary word features and using BaysBERT embeddings. It also provides an **interactive prediction interface**.
 
 Sources:
 
@@ -35,7 +28,7 @@ Integrated Dataset Columns:
 </details>
 <details> <summary><b>
   
-🧹 Step 2: Data Cleaning & Preprocessing</b></summary>
+🧹Step 2: Data Cleaning & Preprocessing</b></summary>
 
 Handle missing values (drop or impute).
 
@@ -50,7 +43,7 @@ Prepare X (features) and y (target = concreteness).
 </details>
 <details> <summary><b>
   
-📊 Step 3: Exploratory Data Analysis (EDA)</b></summary>
+📊Step 3: Exploratory Data Analysis (EDA)</b></summary>
 
 Heatmaps → Check correlations among features.
 
@@ -69,7 +62,7 @@ len_times_conc captures mixed behavior.
 </details>
 <details> <summary><b></b>
                      
-⚙️ Step 4: Feature Engineering</b></summary>
+⚙️Step 4: Feature Engineering</b></summary>
 
 Compute linguistic and psycholinguistic features:
 
@@ -123,6 +116,7 @@ Predict using trained regression model
 Display predicted concreteness
 
 <details> <summary><b>
+
 🚀 Step 7: Future Extensions</b></summary>
 
 Add contextual concreteness using sentence embeddings.
