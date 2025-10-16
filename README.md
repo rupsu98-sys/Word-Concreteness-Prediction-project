@@ -7,6 +7,8 @@ Sources:
 Literary texts (e.g., Woolf, Joyce, Eliot)
 
 Brysbaert Concreteness Dataset (human-rated concreteness scores)
+<details> <summary><b>
+📘 Step 1: Data Collection</b></summary>
 
 Integrated Dataset Columns:
 
